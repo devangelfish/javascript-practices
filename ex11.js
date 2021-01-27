@@ -1,13 +1,13 @@
 console.log("====== 배열 메소드: concat ========");
 
-let colors = ['balck', 'white', 'yellow'];
+let colors = ['black', 'white', 'yellow'];
 let fruits = ['mango', 'banana', 'apple'];
 
 let test = fruits.concat(colors);
 console.log(test);
 
 console.log("====== 배열 메소드: join ========");
-let str = fruits.join(',');
+let str = fruits.join(', ');
 console.log(str);
 
 console.log("====== 배열 메소드: stack 지원(pop, push) ========");
@@ -41,7 +41,7 @@ console.log(numbers);
 console.log("====== 배열 메소드: splice ========");
 // index부터 count개 삭제 후, 삭제 된 요소를 배열로 반환
 console.log(fruits);
-let fruits2 = fruits.splice(0/*index*/, 3/*count*/)
+let fruits2 = fruits.splice(0/*index*/, 2/*count*/)
 console.log(fruits2);
 console.log(fruits);
 
