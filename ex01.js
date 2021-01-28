@@ -6,12 +6,12 @@
     3) string
     4) number
 
-1-2. function
-1-3. 객체(object): new 생성자 함수를 사용해서 객체를 생성
+1-2. function 객체(Object): 함수
+1-3. objec 객체(object): new 생성자 함수를 사용해서 객체를 생성
 
 2. 자바스크립트 객체를 구분하는 또 다른 방법
 2-1. 내장객체(built-in, Native) 객체: 자바스크립트 엔진에 미리 정의되어 있는 객체
-    Number, boolean, Data, RegEx, ..... 와 같은 생성자 함수
+    Number, boolean, Array, Date, String, Function, RegEx, ..... 와 같은 생성자 함수
     parseInt(), setTimeout, setInterval(), ...와 같은 일반 함수
     전역객체(global, window)
 2-2. 호스트 객체
